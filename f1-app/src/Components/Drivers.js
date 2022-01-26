@@ -4,8 +4,19 @@ import '../App.css';
 let Driver = ({ driver }) => {
   return (
     <>
-    <h4>{driver.givenName} {driver.familyName}</h4>
-    </>
+    <div
+      style={{backgroundImage: "url(" + "f1Logo.jpeg" + ")",
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        width: '150px',
+        height: '150px'
+      }}>
+      <div style={{color: "white"}}>
+        <h6>{driver.givenName} {driver.familyName}</h6>
+      </div>
+    </div>
+  </>
   );
 };
 

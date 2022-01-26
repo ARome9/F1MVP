@@ -27,11 +27,11 @@ let StandingsList = () => {
     <div className="standings-container">
       <h1 className="standings-header">Standings</h1>
       <div className="standings-list">
-        <ol>
+        <ul>
           {drivers.map(driver =>
             <DriverStanding key={driver.Driver.code} driver={driver} />
           )}
-        </ol>
+        </ul>
       </div>
     </div>
   )

@@ -12,9 +12,9 @@ function App() {
     <div className="App">
       <h1>F1</h1>
       <div className="container">
-        <div className="drivers">
+        {/* <div className="drivers">
           <DriversList />
-        </div>
+        </div> */}
         <div className="middle-container">
           <div className="seasons">
             <SeasonsList />
@@ -22,8 +22,8 @@ function App() {
           <div className="constructor">
             <ConstructorList />
           </div>
-          <div className="circuit">
-            <CircuitList />
+          <div className="drivers">
+            <DriversList />
           </div>
         </div>
         <div className="standings">

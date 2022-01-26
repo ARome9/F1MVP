@@ -3,7 +3,7 @@ import '../App.css';
 
 let DriverStanding = ({ driver }) => (
   <>
-  <li className="driver-standing"> {driver.Driver.givenName} {driver.Driver.familyName}</li>
+  <div className="driver-standing"> {driver.position}. {driver.Driver.givenName} {driver.Driver.familyName}</div>
   </>
   );
 
