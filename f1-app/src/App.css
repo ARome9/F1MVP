@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+  /* display:flex;\ */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* My Added CSS*/
+.circuit {
+  justify-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.constructor {
+  justify-items: center;
+  /* margin-bottom: 50px; */
+}
+
+.drivers {
+  width: 20%;
+}
+
+.drivers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.drivers-list {
+  background-color: gray;
+  height: 100%;
+  border-style: solid;
+  justify-content: center;
+  /* padding: 5px; */
+  padding-right: 20px;
+}
+
+.driver-standing {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.header {
+  /* margin-bottom: 5px; */
+}
+
+.middle-container {
+  width: 60%;
+}
+
+.seasons {
+  justify-items: center;
+  /* margin-bottom: 50px; */
+}
+
+.season-carousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: */
+}
+
+.season-list {
+  /* display: flex; */
+  justify-content: center;
+  /* border-style: solid; */
+  /* height: 50%; */
+  /* width: 75%; */
+}
+
+.standings {
+  /* display: flex; */
+  justify-content: center;
+  float:right;
+  width: 20%;
+}
+
+.standings-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.standings-list {
+  background-color: gray;
+  height: 100%;
+  border-style: solid;
+  justify-content: center;
+  padding-right: 10%;
+}
+
+/**/
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
