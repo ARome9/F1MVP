@@ -30,7 +30,6 @@ let DriversList = () => {
     axios(config)
       .then((response)=> {
         setDrivers(response.data.MRData.DriverTable.Drivers);
-        console.log('Hello!', response.data.MRData.DriverTable);
       })
       .catch(error => {
         console.error(error);

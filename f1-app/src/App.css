@@ -1,6 +1,10 @@
 .App {
   text-align: center;
   /* display:flex;\ */
+  background-color: rgba(5, 1, 12, 0.966);
+  /* font-family: 'IBM Plex Mono', monospace; */
+  font-family: 'Titillium Web', sans-serif;
+  color: white;
 }
 
 .App-logo {
@@ -15,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffff;
   min-height: 100vh;
   /* display: flex; */
   flex-direction: column;
@@ -30,6 +34,24 @@
 }
 
 /* My Added CSS*/
+.banner {
+  /* background-color: rgb(196, 7, 7); */
+  color: white;
+  font-weight: bold;
+  width: 60px;
+  height: 65px;
+  font-size: 50px;
+  padding: 0;
+  overflow:hidden;
+}
+
+.banner-container {
+  display: flex;
+  justify-content:center;
+  /* margin-top: 10px; */
+  /* height: 50px; */
+}
+
 .circuit {
   justify-items: center;
 }
@@ -37,16 +59,28 @@
 .container {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 10px;
 }
 
 .constructor {
   justify-items: center;
-  /* margin-bottom: 50px; */
+  margin-top: 10px;
 }
 
 .drivers {
-  /* width: 20%; */
-  justify-items: center;
+  margin-top: 10px;
+}
+
+.driver-card {
+  height: 100px;
+  width: 70%;
+  position: relative;
+}
+
+.driver-name-container {
+  width: 100%;
+  bottom: 0;
+  font-weight: bold;
 }
 
 .driver-carousel {
@@ -58,6 +92,13 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.driver-info {
+  text-align: center;
+  width: 150px;
+  height: 65px;
+  margin: 0 auto;
 }
 
 .drivers-list {
@@ -78,9 +119,34 @@
   width: 60%;
 }
 
+.modal-body {
+  justify-content: center;
+}
+
+.playlist::-webkit-scrollbar {
+  display: none;
+}
+
+.playlist {
+  margin-right: 80px;
+  padding: 10px;
+  /* box-shadow: 0 1px 2px rgba(0,0,0,.1); */
+  /* border: solid; */
+  margin-top: 10px;
+  height: 750px;
+  width: 155px;
+  overflow-y:scroll;
+}
+
+.playlist-container {
+  width: 20%;
+  justify-items: center;
+}
+
 .seasons {
   justify-items: center;
   /* margin-bottom: 50px; */
+  margin-top: 10px;
 }
 
 .season-carousel {
@@ -111,12 +177,53 @@
   align-items: center;
 }
 
+.standings-list::-webkit-scrollbar {
+  display: none;
+}
+
 .standings-list {
-  background-color: gray;
+  /* background-color: gray; */
   height: 100%;
-  border-style: solid;
-  justify-content: center;
+  /* border-style: solid; */
+  justify-content:flex-start;
   padding-right: 10%;
+  height: 750px;
+  width: 200px;
+  overflow-y: scroll;
+}
+
+.race-card {
+  height: 100px;
+  width: 70%;
+  position: relative;
+}
+
+.race-info {
+  text-align: center;
+  width: 150px;
+  height: 65px;
+  margin: 0 auto;
+}
+
+.race-info-container {
+  /* position: absolute; */
+  width: 100%;
+  bottom: 0;
+  font-weight: bold;
+}
+
+table {
+  border: 2px solid rgb(0, 0, 0);
+  width: auto;
+  height: auto;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
 }
 
 /**/

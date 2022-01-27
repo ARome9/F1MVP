@@ -30,7 +30,7 @@ let ConstructorList = () => {
     axios(config)
       .then((response)=> {
         setConstructor(response.data.MRData.ConstructorTable.Constructors);
-        console.log('Hello, here are the constructor results', response.data.MRData.ConstructorTable.Constructors);
+        console.log('Hello, here are the constructor results', response);
       })
       .catch(error => {
         console.error(error);
