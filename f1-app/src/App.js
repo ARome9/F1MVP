@@ -53,6 +53,7 @@ function App() {
           <StandingsList />
         </div>
       </div>
+      <h4>Lewis Hamilton <em>Actual</em> 2021 Champion + ratio</h4>
     </div>
   );
 }

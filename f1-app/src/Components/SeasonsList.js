@@ -39,7 +39,7 @@ let SeasonsList = () => {
 
   return (
     <>
-      <h1 className="header">Current Season Schedule</h1>
+      <h1 className="header">2021 Season Schedule</h1>
       <div className="season-list">
         <div className="season-carousel">
         <i className="fas fa-chevron-left" alt='' onClick={leftSlide}></i>
